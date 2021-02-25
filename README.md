@@ -3,14 +3,14 @@
   
 # Approach
 - This project consists of reusable components such as Home , MediaBody and Information components.
-- The Home component is used to show the actual data received from the API calls
-- The state data which is initially empty receives the required information from the API calls.
+- The Home component is used to show the data received from the API calls.
+- The state "data" which is initially empty receives the required information from the API calls.
 - Then the information is displayed on the homescreen.
 - The Mediabody component is used to show individual data elements .
 - The Information comoponent is used for detail information of a particular experiment of spacex which gets triggered after a button click
 - I have used axios for API calls and react bootstrap for responsive design.
 - Different filters like successful landings,successfull launches and experiments on a particular year can be obtained from the top navbar.
-- Every experiment is wrapped inside a container and displayed on the screes
+- Every experiment is wrapped inside a container and displayed on the screens.
   
 
 
