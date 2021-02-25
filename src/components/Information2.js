@@ -1,8 +1,7 @@
 import React from 'react'
 
-import {Container,Row,Col,Button} from "react-bootstrap"
+import {Container,Row,Col} from "react-bootstrap"
 
-import classNames from "classnames"
 function Information2({src,visible}) {
     var classes =  visible?"showInfo":"info"
   
@@ -44,7 +43,7 @@ function Information2({src,visible}) {
                 </Row>
                 <Row>
                 {
-                    src.launch_success==false?
+                    src.launch_success===false?
                     <p>
                         Failure Reason : {src.launch_failure_details.reason}
                     </p>
@@ -77,21 +76,21 @@ function Information2({src,visible}) {
                     <Row>
                         <div>
                         <span style={{fontSize : "20px"}}>Mission Article : </span>
-                        <a href={src.links.article_link} target="_blank">{src.links.article_link}</a>
+                        <a href={src.links.article_link} target="_blank" rel="noreferrer">{src.links.article_link}</a>
 
                         </div>
                     </Row>
                     <Row>
                         <div>
                         <span style={{fontSize : "20px"}}>Wikipedia : </span>
-                        <a href={src.links.wikipedia} target="_blank">{src.links.wikipedia}</a>
+                        <a href={src.links.wikipedia} target="_blank" rel="noreferrer">{src.links.wikipedia}</a>
 
                         </div>
                     </Row>
                     <Row>
                         <div>
                         <span style={{fontSize : "20px"}}>Youtube : </span>
-                        <a href={src.links.video_link} target="_blank">{src.links.video_link}</a>
+                        <a href={src.links.video_link} target="_blank" rel="noreferrer">{src.links.video_link}</a>
 
                         </div>
                     </Row>

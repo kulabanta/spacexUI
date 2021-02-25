@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
-import {Media,Button} from "react-bootstrap"
+import {Button} from "react-bootstrap"
 
 import Information2 from "./Information2.js"
 
-import {Container,Row,Col} from "react-bootstrap"
+import {Row,Col} from "react-bootstrap"
 
 function MediaBody({src}) {
     const [visible,setVisible] =  useState(false)

@@ -100,8 +100,8 @@ class Home extends Component {
                     <Row className="justify-content-md-center">
                         <Col>
                     {
-                        !this.state.fetching ? this.state.data.map(data=>{
-                            return <MediaBody src={data}/>
+                        !this.state.fetching ? this.state.data.map((data,index)=>{
+                            return <MediaBody key ={index} src={data}/>
                         })
                         :
                         this.state.error?
