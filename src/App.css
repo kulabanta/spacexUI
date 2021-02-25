@@ -1,0 +1,66 @@
+body
+{
+    margin : 0;
+    padding : 0;
+    background-color :#EAF4F4;;
+}
+.App
+{
+    /* background-color :#EAF4F4; */
+    margin : 0px;
+    padding : 0px;
+    height : 100%;
+
+
+}
+.mediaStyle{
+    
+    color:black;
+    background-color :#F7F6F7;
+    font-family :'Times New Roman', Times, serif;
+    margin-top: 20px;
+    padding : 5px;
+    transition : 0.5s;
+    
+}
+.mediaStyle h4{
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mediaStyle p{
+    font-size : 20px;
+}
+.mediaStyle:hover
+{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.mediaStyle2{
+    color : black;
+    margin : 0 auto;
+}
+.NavStyle
+{
+    background : none;
+    border-bottom : 2px solid #FF4541;
+}
+.info
+{
+    display: none;
+    opacity: 0;
+    height : 0;
+   
+}
+.showInfo{
+    height: auto;
+    margin: 30px auto;
+    transition: all 2s linear;
+    display: block;
+}
+.infoHeader
+{
+    position : absolute;
+    left : 40%;
+    margin : 3px;
+
+}
